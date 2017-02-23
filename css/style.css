@@ -1,0 +1,47 @@
+.block{
+  display: flex;
+  background-color: red;
+}
+.hallo{
+  background-color: yellow;
+}
+.gesamthintergrundfarbe{
+  background-color: white
+}
+.boxenanordnung{
+  display: flex;
+}
+.boxenanordnung >div{
+  flex: 1;
+  padding: 15px;
+}
+.boxenanordnung img {
+    width: 100%;
+    height: 500px;
+
+}
+.input{
+  display: flex;
+
+}
+label{
+  font-size: 18px;
+}
+
+.farbe{
+  color:red;
+}‚
+.bildgröße{
+  with:60%;
+  height:60%;
+}
+.tweet-button{
+  display: inline-block;
+  width: 55px;
+  height: 21px;
+  background-image: url(http://emilysmayy.com/wp-content/uploads/2015/04/j5wvbyw5kipi2cl2vhck.jpeg);
+  background-position:;
+}
+.tweet-button:hover {
+  background-position: 0 -21px;
+}
